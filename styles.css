@@ -1,0 +1,36 @@
+.body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer {
+    margin-left: 25%;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.container {
+    display: flex;
+    margin-left: 25%;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 650px;
+    border: 1px solid black;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.hovered {
+    background-color: black !important; 
+    /* to override the random rgb inital color */
+}
+
+.hovered2 {
+    background-color: rgb(255, 255, 255) !important; 
+    /* to override the random rgb inital color */
+}
